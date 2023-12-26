@@ -91,7 +91,7 @@ public class Main {
     private static HttpRequest.BodyPublisher buildHttpRequestBodyMulti(String token) {
         return HttpRequest.BodyPublishers.ofString(STR."""
                 {
-                    "message":{"
+                    "message":{
                         "token" : "\{token}",
                         "notification" : {
                             "title" : "\{TITLE}",
